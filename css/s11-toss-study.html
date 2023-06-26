@@ -23,7 +23,15 @@
 
       .main {
         height: 800px;
-        background-image: url("./img/new_main.png");
+        background-image: url("./toss/new_main.png");
+      }
+      
+      .first-layer{
+        background: linear-gradient(
+            to bottom,
+            white 0%,
+            rgba(255,255,255,0) 100%
+        );
       }
 
       .container {
@@ -77,7 +85,7 @@
         border-radius: 6px;
       }
 
-      .app-button > div{
+      .app-button > div {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -89,41 +97,48 @@
   </head>
   <body>
     <section class="main center-cover-img">
-      <div class="container">
-        <div class="logo-nav">
-          <img class="logo" src="./img/toss-logo.png" height="25" alt="로고" />
-          <div class="nav">
-            <ul>
-              <li>회사 소개</li>
-              <li>고객센터</li>
-              <li>자주 묻는 질문</li>
-              <li>토스인증서</li>
-              <li>채용</li>
-            </ul>
-            <ul>
-              <li>KOR</li>
-              <li>|</li>
-              <li>ENG</li>
-            </ul>
+      <div class="first-layer">
+        <div class="container">
+          <div class="logo-nav">
+            <img
+              class="logo"
+              src="./toss/toss-logo.png"
+              height="25"
+              alt="로고"
+            />
+            <div class="nav">
+              <ul>
+                <li>회사 소개</li>
+                <li>고객센터</li>
+                <li>자주 묻는 질문</li>
+                <li>토스인증서</li>
+                <li>채용</li>
+              </ul>
+              <ul>
+                <li>KOR</li>
+                <li>|</li>
+                <li>ENG</li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div>
-          <div class="info">
-            <div class="info-msg">금융의 모든 것</div>
-            <div class="info-msg">토스에서 쉽고 간편하게</div>
-            <div class="button-group">
-              <button class="app-button">
-                <div>
-                  <img src="./img/applekorea.png" height="25" alt="" />
-                  <span>App Store</span>
-                </div>
-              </button>
-              <button class="app-button">
-                <div>
-                  <img src="./img/googleplay.png" height="25" alt="" />
-                  <span>Google Play</span>
-                </div>
-              </button>
+          <div>
+            <div class="info">
+              <div class="info-msg">금융의 모든 것</div>
+              <div class="info-msg">토스에서 쉽고 간편하게</div>
+              <div class="button-group">
+                <button class="app-button">
+                  <div>
+                    <img src="./toss/applekorea.png" height="25" alt="" />
+                    <span>App Store</span>
+                  </div>
+                </button>
+                <button class="app-button">
+                  <div>
+                    <img src="./toss/googleplay.png" height="25" alt="" />
+                    <span>Google Play</span>
+                  </div>
+                </button>
+              </div>
             </div>
           </div>
         </div>
