@@ -1,0 +1,41 @@
+.tosscontainer {
+    border-width: 1px;
+    border-color:black;
+    border-style: solid;
+}
+.nav{
+    font-size: 18px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.icon {
+    display: flex;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.lang {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.mainlogo {
+    font-size: 45px;
+    margin: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.download {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
